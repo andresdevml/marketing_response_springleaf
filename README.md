@@ -1,6 +1,6 @@
 # Modelo predictivo para respuestas de Marketing 🤖
 
-El proyecto consiste en generar el código necesario para entrenar, optimizar y evaluar un modelo capaz de predecir cuáles clientes tienen mayor probabilidad de tener una respuesta positiva a la promoción del servicio. Este modelo puede ser de utilidad para utilizar los recursos de marketing efectivamente. 
+Se genero el código necesario para entrenar, optimizar y evaluar un modelo capaz de predecir cuáles clientes tienen mayor probabilidad de tener una respuesta positiva a la promoción del servicio. Este modelo puede ser de utilidad para manejar los recursos de marketing efectivamente. 
 
 # Herramientas 🛠️
 
@@ -13,7 +13,7 @@ El proyecto consiste en generar el código necesario para entrenar, optimizar y 
 
 # Ingeniería de características ⚙️
 
-En primera instancia se extrae la data del repositorio de Kaggle mediante el script _**data_extraction.ipynb**_. Posterior a esto llenamos los datos vacíos y transformamos la data hacia una representación numérica conveniente para el modelo a utilizar. Posteriormente se segmenta la data en dos grupos, uno de entrenamiento y otro de testeo. Este proceso esta plasmado en _**data_wraling.ipynb**_.
+En primera instancia se extrae la data del repositorio de Kaggle mediante el script _**data_extraction.ipynb**_. Posteriormente llenamos los datos vacíos y transformamos la data hacia una representación numérica conveniente para el modelo a utilizar. Luego se segmenta la data en dos grupos, uno de entrenamiento y otro de testeo. Este proceso esta plasmado en _**data_wraling.ipynb**_.
 
 # Prueba y optimización de modelo 🦾
 
