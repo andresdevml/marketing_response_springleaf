@@ -21,9 +21,9 @@ Utilizamos un bosque aleatorio con potenciación del gradiente (XGB) como modelo
 
 # Finalización del modelo 💎
 
-Ya con los hiperparametros óptimos para el aprendizaje del modelo, volvemos a segmentar la data en los conjuntos de entrenamiento y validación. Pero esta vez con una proporción mucho mayor para el entrenamiento y solo una pequeña muestra para el testeo (10%). Este proceso corresponde al script _**data_prod.ipynb**_.
+Ya con los hiperparametros óptimos para el aprendizaje del modelo, volvemos a segmentar la data en los conjuntos de entrenamiento y validación. Pero esta vez con una proporción mucho mayor para el entrenamiento y solo una pequeña muestra para el testeo (10%). Con esta nueva segmentación de data, procedemos a entrenar el modelo final que irá a producción.Esto lo hacemos en _**model_prod.ipynb**_. 
 
-Con esta nueva segmentación de data, procedemos a entrenar el modelo final que irá a producción.Esto lo hacemos en _**model_prod.ipynb**_, luego exportamos el modelo final y construimos una tubería de procesamiento de datos y predicción que posteriormente puede ser utilizada como parte de un servicio predictivo ( API ). Esta tubería se encuentra en _**predict.ipynb**_.
+Luego exportamos el modelo final y construimos una tubería de procesamiento de datos y predicción que posteriormente puede ser utilizada como parte de un servicio predictivo ( API ). Esta tubería se encuentra en _**predict.ipynb**_.
 
 
 
