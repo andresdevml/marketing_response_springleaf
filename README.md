@@ -15,7 +15,7 @@ Se genero el código necesario para entrenar, optimizar y evaluar un modelo capa
 
 En primera instancia se extrae la data del repositorio de Kaggle mediante el script _**data_extraction.ipynb**_. Posteriormente llenamos los datos vacíos y transformamos la data hacia una representación numérica conveniente para el modelo a utilizar. Luego se segmenta la data en dos grupos, uno de entrenamiento y otro de testeo. Este proceso esta plasmado en _**data_wraling.ipynb**_.
 
-# Prueba y optimización de modelo 🦾
+# Prueba y optimización del modelo 🦾
 
 Utilizamos un bosque aleatorio con potenciación del gradiente (XGB) como modelo predictivo y optimizamos sus hiperparametros de aprendizaje con el objetivo de maximiar la métrica AUC, la cual nos da un indicativo de la efectividad del modelo. Este proceso puede verse en _**model_opt_xgb.ipynb**_.
 
