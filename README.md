@@ -13,7 +13,7 @@ Se genero el código necesario para entrenar, optimizar y evaluar un modelo capa
 
 # Ingeniería de características ⚙️
 
-En primera instancia se extrae la data del repositorio de Kaggle mediante el script _**data_extraction.ipynb**_. Posteriormente llenamos los datos vacíos y transformamos la data hacia una representación numérica conveniente para el modelo a utilizar. Luego se segmenta la data en dos grupos, uno de entrenamiento y otro de testeo. Este proceso esta plasmado en _**data_wraling.ipynb**_.
+En primera instancia se extrae la data de la fuente de datos. Posteriormente llenamos los datos vacíos y transformamos la data hacia una representación numérica conveniente para el modelo a utilizar. Luego se segmenta la data en dos grupos, uno de entrenamiento y otro de testeo. Este proceso esta plasmado en _**data_wraling.ipynb**_.
 
 # Prueba y optimización del modelo 🦾
 
