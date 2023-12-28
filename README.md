@@ -28,7 +28,7 @@ Luego exportamos el modelo final y construimos una tubería de procesamiento de 
 
 # Modelo en producción 🏭
 
-Con el modelo finalizado, creamos una REST API para poder dar acceso al modelo como servicio, dentro de esta api se realiza todo el proceso necesario sobre los datos crudos para que el modelo pueda arrojar la predicción requerida. Este servicio se encuentra codificado en el script _**rest_api.py**_. Adicionalmente tenemos un script para generar un request a la api y así testear su correcto funcionamiento. Este es el script  _**test_request.py**_.
+Con el modelo finalizado, creamos una REST API para poder dar acceso al modelo como servicio, dentro de esta api se realiza todo el proceso necesario sobre los datos crudos para que el modelo pueda arrojar la predicción requerida. Este servicio se encuentra codificado en el script _**rest_api.py**_. Adicionalmente tenemos un script para generar un request a la api y así testear su correcto funcionamiento. Este, es el script  _**test_request.py**_.
 
 
 
