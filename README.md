@@ -1,6 +1,6 @@
 # Modelo predictivo para respuestas de Marketing 🤖
 
-Se genero el código necesario para entrenar, optimizar y evaluar un modelo capaz de predecir cuáles clientes tienen mayor probabilidad de tener una respuesta positiva a la promoción del servicio. Este modelo resultautil para manejar los recursos de marketing efectivamente. 
+Se genero el código necesario para entrenar, optimizar y evaluar un modelo capaz de predecir cuáles clientes tienen mayor probabilidad de tener una respuesta positiva a la promoción del servicio. Este modelo resultó util para manejar los recursos de marketing efectivamente. 
 
 # Herramientas 🛠️
 
